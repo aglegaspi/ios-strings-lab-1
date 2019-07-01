@@ -172,6 +172,8 @@ letter9 == letter99
 ```swift
 My Answer:
 
+let heWe = "\u{0048}\u{0045}\u{004C}\u{004C}\u{004F} \u{0057}\u{004F}\u{0052}\u{004C}\u{0044}\u{0021}"
+
 ```
 
 ***
