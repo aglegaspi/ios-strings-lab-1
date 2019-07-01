@@ -226,6 +226,27 @@ Flower Box:
 ```swift
 My Answer:
 
+let range = 1...11
+let range2 = 1...7
+let dash = "-"
+let vline = "|"
+let flower = "\u{2698}"
+
+for _ in range {
+    print(dash, separator: "", terminator: " ")
+}
+print ("")
+
+for _ in range2 {
+    print("\(vline) \(flower) \(vline) \(flower) \(vline) \(flower) \(vline) \(flower) \(vline) \(flower) \(vline)", separator: " ", terminator: " ")
+    print("")
+}
+
+for _ in range {
+    print(dash, separator: "", terminator: " ")
+}
+print ("")
+
 ```
 
 ***
