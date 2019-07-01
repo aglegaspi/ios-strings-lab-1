@@ -336,10 +336,11 @@ var aString = "this string has 29 characters"
 var reverse = ""
 ```
 
-// Your code here
-
 ```swift
 My Answer:
+
+var reverse = String(aString.reversed())
+print(reverse)
 
 ```
 
