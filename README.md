@@ -104,6 +104,8 @@ Write code that switches on a string, given the following conditions:
 ```swift
 My Answer:
 
+let switchString = "yoodl"
+
 switch switchString.count % 2 {
     case 0:
         for i in switchString {
@@ -127,6 +129,9 @@ Initialize a String with a character. Show that it is a Character, and not anoth
 ```swift
 My Answer:
 
+let myChar: Character = "!"
+myChar == Character("!")
+
 ```
 
 ***
@@ -136,6 +141,26 @@ Build five pairs of **canonically equivalent** strings, the first of each being 
 
 ```swift
 My Answer:
+
+var letter1 = "B"
+var letter2 = "\u{0042}"
+letter1 == letter2
+
+var letter3 = "c"
+var letter4 = "\u{0063}"
+letter3 == letter4
+
+var letter5 = "z"
+var letter6 = "\u{007A}"
+letter5 == letter6
+
+var letter7 = "O"
+var letter8 = "\u{004F}"
+letter7 == letter8
+
+var letter9 = "a"
+var letter99 = "\u{0061}"
+letter9 == letter99
 
 ```
 
