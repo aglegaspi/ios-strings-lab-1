@@ -344,35 +344,12 @@ print(reverse)
 
 ```
 
-
-```
-
-Example:
-Input:
-`var aString = "Hello"`
-
-Output:
-`"olleH"`
-
 ***
 ## Question 16
 
 You are given a string stored in variable `aString`. Print `true` if `aString` is a palindrome, and `false` otherwise. A **palindrome** is a string which reads the same backward or forward.
 
-```swift
-let aString = "anutforajaroftuna"
-
-// Your code here
 ```
-
-```swift
-My Answer:
-
-```
-
-
-```
-
 Example 1:
 Input:
 `var aString = "anutforajaroftuna"`
@@ -386,23 +363,29 @@ Input:
 
 Output:
 `false`
+```
+
+```swift
+let aString = "anutforajaroftuna"
+
+```
+
+```swift
+My Answer:
+
+
+
+```
+
+
+
 
 ***
 ## Question 17
 
 You are given a string stored in variable `problem`. Write code so that you print each word of the string on a new line.
 
-```swift
-var problem = "split this string into words and print them on separate lines"
 ```
-
-```swift
-My Answer:
-
-```
-
-```
-
 Example:
 Input:
 `var problem ="split this string into words and print them on separate lines"`
@@ -421,6 +404,19 @@ on
 separate
 lines
 ```
+
+```swift
+var problem = "split this string into words and print them on separate lines"
+```
+
+```swift
+My Answer:
+
+var newLineBreak = problem.replacingOccurrences(of: " ", with: "\n", options: .literal, range: nil)
+print(newLineBreak)
+
+```
+
 
 ***
 ## Question 18
