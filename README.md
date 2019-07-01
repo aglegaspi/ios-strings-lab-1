@@ -14,20 +14,44 @@
 Write code that prints out all the numbers from 1 to 10 as a single string.
 (Hint: the `String()` function can convert an Int to a String)
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 2
 
 Write code that prints out all the even numbers from 5 to 51 as a single string.
+
+```swift
+My Answer:
+
+}
+```
 
 ***
 ## Question 3
 
 Write code that prints out every number ending in 4 between 1 and 60 as a single string.
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 4
 
 Print each character in the string `"Hello world!"`
+
+```swift
+My Answer:
+
+}
+```
 
 ***
 ## Question 5
@@ -36,6 +60,12 @@ Print out the last character in the string below.  You cannot use the Character 
 
 `let myStringSeven = "Hello world!"`
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 6
 
@@ -43,30 +73,66 @@ Write code that switches on a string, given the following conditions:
 - If the string's length is even, print out every character.
 - If the string's length is odd, print out every other character.
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 7
 
 Initialize a String with a character. Show that it is a Character, and not another String, that you're using to initialize it.
+
+```swift
+My Answer:
+
+}
+```
 
 ***
 ## Question 8
 
 Build five pairs of **canonically equivalent** strings, the first of each being a pre-composed character and the second being one that uses combinable unicode scalars. Show that they are equivalent.
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 9
 
 **Using only Unicode**, print out `"HELLO WORLD!"`
+
+```swift
+My Answer:
+
+}
+```
 
 ***
 ## Question 10
 
 **Using only Unicode**, print out your name.
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 11
 
 **Using only Unicode**, print out `"HELLO WORLD!"` in another language.
+
+```swift
+My Answer:
+
+}
+```
 
 ***
 ## Question 12
@@ -91,6 +157,12 @@ Flower Box:
 - - - - - - - - - - -
 ```
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 13
 
@@ -106,6 +178,12 @@ Chess Board:
 
 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+```
+
+```swift
+My Answer:
+
+}
 ```
 
 ***
@@ -126,6 +204,12 @@ Input:
 Expected values:
 `replacedString = "R*plac* th* l*tt*r * with *"`
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 15
 
@@ -134,8 +218,17 @@ You are given a string stored in variable `aString`. Create a new string called 
 ```swift
 var aString = "this string has 29 characters"
 var reverse = ""
+```
 
 // Your code here
+
+```swift
+My Answer:
+
+}
+```
+
+
 ```
 
 Example:
@@ -154,6 +247,15 @@ You are given a string stored in variable `aString`. Print `true` if `aString` i
 let aString = "anutforajaroftuna"
 
 // Your code here
+```
+
+```swift
+My Answer:
+
+}
+```
+
+
 ```
 
 Example 1:
@@ -177,8 +279,14 @@ You are given a string stored in variable `problem`. Write code so that you prin
 
 ```swift
 var problem = "split this string into words and print them on separate lines"
+```
 
-// Your code
+```swift
+My Answer:
+
+}
+```
+
 ```
 
 Example:
@@ -208,7 +316,12 @@ You are given a string stored in variable `problem`. Write code that prints the 
 ```swift
 var problem = "find the longest word in the problem description"
 
-// Your code here
+```
+
+```swift
+My Answer:
+
+}
 ```
 
 Example:
@@ -231,6 +344,12 @@ let consonants = "bcdfghjklmnpqrstvwxyz"
 let input = "Count how many vowels I have!"
 ```
 
+```swift
+My Answer:
+
+}
+```
+
 ***
 ## Question 20
 
@@ -242,5 +361,11 @@ Example:
 Input: `"How are you doing this Monday?"`
 
 Output: `7`
+
+```swift
+My Answer:
+
+}
+```
 
 ***
