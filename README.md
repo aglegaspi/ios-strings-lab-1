@@ -431,6 +431,14 @@ var problem = "find the longest word in the problem description"
 ```swift
 My Answer:
 
+var problem = "find the longest word in the problem description"
+
+var myArray = problem.split{$0 == " "}
+if let max = myArray.max(by: {$1.count > $0.count}) {
+print(max)
+}
+
+
 ```
 
 Example:
