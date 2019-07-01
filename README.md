@@ -87,6 +87,11 @@ Print out the last character in the string below.  You cannot use the Character 
 ```swift
 My Answer:
 
+let myStringEnd = myString.endIndex
+let lastCharIndex = myString.index(before: myStringEnd)
+let lastChar = myString[lastCharIndex]
+print(lastChar)
+
 ```
 
 ***
