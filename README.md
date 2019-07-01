@@ -308,7 +308,6 @@ You are given a string stored in the variable `aString`. Create new string named
 
 ```swift
 var aString = "Replace the letter e with \*"
-// Your code here
  ```
 
 Example:
@@ -321,6 +320,9 @@ Expected values:
 
 ```swift
 My Answer:
+
+var replacedString = aString.replacingOccurrences(of: "e", with: "*", options: .literal, range: nil)
+print(replacedString)
 
 ```
 
