@@ -31,6 +31,14 @@ Write code that prints out all the even numbers from 5 to 51 as a single string.
 ```swift
 My Answer:
 
+let evenRange = 5...51
+
+for e in evenRange {
+
+if e % 2 == 0 {
+    print(String(e), terminator: " ")
+    }
+}
 ```
 
 ***
@@ -41,6 +49,15 @@ Write code that prints out every number ending in 4 between 1 and 60 as a single
 ```swift
 My Answer:
 
+let powerRanges = 1...60
+
+for p in powerRanges {
+
+    if p % 10 == 4 {
+        print(String(p), terminator: " ")
+    }
+}
+
 ```
 
 ***
@@ -50,6 +67,13 @@ Print each character in the string `"Hello world!"`
 
 ```swift
 My Answer:
+
+let myString = "Hello World!"
+
+for l in myString {
+    print(l)
+}
+
 
 ```
 
