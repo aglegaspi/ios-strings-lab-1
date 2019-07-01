@@ -17,7 +17,10 @@ Write code that prints out all the numbers from 1 to 10 as a single string.
 ```swift
 My Answer:
 
-}
+let myRange = 1...10
+
+for i in myRange {
+    print(String(i), terminator: " ")
 ```
 
 ***
@@ -28,7 +31,6 @@ Write code that prints out all the even numbers from 5 to 51 as a single string.
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -39,7 +41,6 @@ Write code that prints out every number ending in 4 between 1 and 60 as a single
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -50,7 +51,6 @@ Print each character in the string `"Hello world!"`
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -63,7 +63,6 @@ Print out the last character in the string below.  You cannot use the Character 
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -76,7 +75,6 @@ Write code that switches on a string, given the following conditions:
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -87,7 +85,6 @@ Initialize a String with a character. Show that it is a Character, and not anoth
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -98,7 +95,6 @@ Build five pairs of **canonically equivalent** strings, the first of each being 
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -109,7 +105,6 @@ My Answer:
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -120,7 +115,6 @@ My Answer:
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -131,7 +125,6 @@ My Answer:
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -160,7 +153,6 @@ Flower Box:
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -183,7 +175,6 @@ Chess Board:
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -207,7 +198,6 @@ Expected values:
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -225,7 +215,6 @@ var reverse = ""
 ```swift
 My Answer:
 
-}
 ```
 
 
@@ -252,7 +241,6 @@ let aString = "anutforajaroftuna"
 ```swift
 My Answer:
 
-}
 ```
 
 
@@ -284,7 +272,6 @@ var problem = "split this string into words and print them on separate lines"
 ```swift
 My Answer:
 
-}
 ```
 
 ```
@@ -321,7 +308,6 @@ var problem = "find the longest word in the problem description"
 ```swift
 My Answer:
 
-}
 ```
 
 Example:
@@ -347,7 +333,6 @@ let input = "Count how many vowels I have!"
 ```swift
 My Answer:
 
-}
 ```
 
 ***
@@ -365,7 +350,6 @@ Output: `7`
 ```swift
 My Answer:
 
-}
 ```
 
 ***
