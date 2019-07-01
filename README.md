@@ -104,6 +104,19 @@ Write code that switches on a string, given the following conditions:
 ```swift
 My Answer:
 
+switch switchString.count % 2 {
+    case 0:
+        for i in switchString {
+            print(i)
+        }
+    default:
+        for (index,letter) in switchString.enumerated() {
+            if index % 2 != 0 {
+                print(letter)
+            }
+        }
+}
+
 ```
 
 ***
