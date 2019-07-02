@@ -497,6 +497,13 @@ Output: `7`
 ```swift
 My Answer:
 
+if let index = sentence.lastIndex(of: " ") {
+    let lastWord = sentence[index...]
+        print(lastWord.count - 1)
+    } else {
+        print("No Last Word")
+}
+
 ```
 
 ***
