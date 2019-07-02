@@ -264,36 +264,28 @@ Chess Board:
 ```swift
 My Answer:
 
-let whiteChessParts = "\u{2656}\u{2658}\u{2657}\u{2655}\u{2654}\u{2657}\u{2658}\u{2656}"
-let whiteChessPawns = "\u{2659}"
+let wChessParts = "\u{2656}\u{2658}\u{2657}\u{2655}\u{2654}\u{2657}\u{2658}\u{2656}"
+let wPawns = "\u{2659}"
+let wpRow = String(repeating: "\(wPawns) ", count: 8)
+let bChessParts = "\u{265C}\u{265E}\u{265D}\u{265B}\u{265A}\u{265D}\u{265E}\u{265C}"
+let bPawns = "\u{265F}"
+let bpRow = String(repeating: "\(bPawns) ", count: 8)
 
-let blackChessParts = "\u{265C}\u{265E}\u{265D}\u{265B}\u{265A}\u{265D}\u{265E}\u{265C}"
-let blackChessPawns = "\u{265F}"
 
-let pawnRange = 1...8
-
-for w in whiteChessParts {
-    print(w, separator: " ", terminator: " ")
+for w in wChessParts {
+print(w, separator: " ", terminator: " ")
 }
 print("")
-
-for _ in pawnRange {
-p   rint(whiteChessPawns, separator: " ", terminator: " ")
-}
+print(wpRow, separator: " ")
 
 for _ in 1...4 {
-    print("", separator: " ")
+print("", separator: " ")
 }
 
-for _ in pawnRange {
-    print(blackChessPawns, separator: " ", terminator: " ")
+print(bpRow, separator: "")
+for x in bChessParts {
+print(x, separator: " ", terminator: " ")
 }
-print("")
-
-for x in blackChessParts {
-    print(x, separator: " ", terminator: " ")
-}
-
 ```
 
 ***
@@ -368,6 +360,9 @@ let aString = "anutforajaroftuna"
 ```swift
 My Answer:
 
+let rString = String(aString.reversed())
+
+print(aString == rString)
 
 
 ```
