@@ -405,6 +405,9 @@ My Answer:
 var newLineBreak = problem.replacingOccurrences(of: " ", with: "\n", options: .literal, range: nil)
 print(newLineBreak)
 
+-or'
+
+
 ```
 
 
@@ -453,6 +456,27 @@ let input = "Count how many vowels I have!"
 
 ```swift
 My Answer:
+
+var myVowels = ""
+var myConsos = ""
+
+for i in input {
+
+    for j in vowels {
+        if i == j {
+            myVowels += "\(i)"
+        }
+    }
+    for k in consonants {
+        if i == k {
+            myConsos += "\(i)"
+        }
+    }
+}
+
+var myTuple = (myVowels.count, myConsos.count)
+print(myTuple)
+
 
 
 
