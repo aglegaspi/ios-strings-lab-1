@@ -226,26 +226,21 @@ Flower Box:
 ```swift
 My Answer:
 
-let range = 1...11
-let range2 = 1...7
-let dash = "-"
 let vline = "|"
 let flower = "\u{2698}"
+let flowerRow = "\(vline) \(flower)"
+let outline = String(repeating: "- ", count: 11)
 
-for _ in range {
-    print(dash, separator: "", terminator: " ")
-}
-print ("")
+print(outline)
 
-for _ in range2 {
-    print("\(vline) \(flower) \(vline) \(flower) \(vline) \(flower) \(vline) \(flower) \(vline) \(flower) \(vline)", separator: " ", terminator: " ")
-    print("")
-}
+for _ in 1...7 {
+    for _ in 1...5 {
+        print(flowerRow, separator: "", terminator: " ")
+    }
+    print(vline)
+    }
 
-for _ in range {
-    print(dash, separator: "", terminator: " ")
-}
-print ("")
+print(outline)
 
 ```
 
@@ -423,6 +418,15 @@ print(newLineBreak)
 
 You are given a string stored in variable `problem`. Write code that prints the longest word in the string.
 
+Example:
+Input:
+`var problem = "find the longest word in the problem description"`
+
+Output:
+`description`
+
+Hint: Keep track of the longest word you encounter and also keep track of its length.
+
 ```swift
 var problem = "find the longest word in the problem description"
 
@@ -441,15 +445,6 @@ print(max)
 
 ```
 
-Example:
-Input:
-`var problem = "find the longest word in the problem description"`
-
-Output:
-`description`
-
-Hint: Keep track of the longest word you encounter and also keep track of its length.
-
 ***
 ## Question 19
 
@@ -463,6 +458,8 @@ let input = "Count how many vowels I have!"
 
 ```swift
 My Answer:
+
+
 
 ```
 
